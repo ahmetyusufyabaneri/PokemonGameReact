@@ -1,0 +1,24 @@
+.pokedex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pokedex-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 100px;
+  row-gap: 10px;
+}
+
+.pokedex-winner {
+  color: rgb(17, 183, 100);
+}
+
+.pokedex-loser {
+  color: rgb(157, 9, 9);
+}
